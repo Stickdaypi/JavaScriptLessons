@@ -53,20 +53,32 @@ console.log (personalMovieDB);
  
 // console.log( 5 === 5 && 3 > 1 || 5);
  
-let age = 10;
+// let age = 10;
 
-for (let i = age; i <= 18; i++ ){
-    if (i<18) {
-        let w = 18-i;    
-    console.log('You need birthday certificate and wait for ' + w + ' years!');
-    console.log(i);}
+// for (let i = age; i <= 18; i++ ){
+//     if (i<18) {
+//         let w = 18-i;    
+//     console.log('You need birthday certificate and wait for ' + w + ' years!');
+//     console.log(i);}
     
-    else {
-    for (let j = i; j <= 60; j++ ){
-        let d = 60-j;    
-        console.log('You need passport and wait for the rest ' + d + ' years!');        
-    }}
+//     else {
+//     for (let j = i; j <= 60; j++ ){
+//         let d = 60-j;    
+//         console.log('You need passport and wait for the rest ' + d + ' years!');        
+//     }}
     
-}
+// }
 
 
+
+// for (let i=5; i<11; i++) {
+// console.log(i);
+// }
+// // При помощи цикла for вывести числа от 20 до 10 в консоль. В обратном порядке (20, 19, 18...). 
+// // Когда цикл дойдет до числа 13 - остановить весь цикл
+// for (let i=20; i>10; i--) {    
+//     console.log(i);
+//     if (i<15){
+//     break;}
+// }
+// При помощи цикла for выведите чётные числа от 2 до 10 включительно
