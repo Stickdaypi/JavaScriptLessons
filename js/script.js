@@ -18,28 +18,30 @@
     movies: {
         'logan': '8.1'
     }
+// Проверить, чтобы все работало без ошибок в консоли */
+// const a = prompt('Один из последних просмотренных фильмов?', ''),
+//     b = prompt('На сколько оцените его?',''),
+//     c = prompt('Один из последних просмотренных фильмов?', ''),
+//     d = prompt('На сколько оцените его?', '');
 
-Проверить, чтобы все работало без ошибок в консоли */
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
 
-'use strict';
-const numberOfFilms = +prompt('Скільки фільмів ви передивились?');
-let personalMovieDB = {
-    count: numberOfFilms,
-    movies:{},
-    actors:{},
-    genres:[],
-    privat:false
-};
-
-const a = prompt('Один из последних просмотренных фильмов?', ''),
-    b = prompt('На сколько оцените его?',''),
-    c = prompt('Один из последних просмотренных фильмов?', ''),
-    d = prompt('На сколько оцените его?', '');
-
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
-
-console.log (personalMovieDB);
+// console.log (personalMovieDB);
+// for (let i = 0; i < 2; i++) {
+//     const a = prompt('Один из последних просмотренных фильмов?', ''),
+//     b = prompt('На сколько оцените его?','');
+//     // personalMovieDB.movies[a] = b;
+//     if (a != null && a != '' && b != '' && b != null && a.length < 50) {
+//         personalMovieDB.movies[a] = b;
+//         console.log('done');
+//     } else {
+//         i--;
+//         console.log('error');
+//     }
+// }
+// console.log(personalMovieDB.movies);
+// ====================================================================================================================
 
 // console.log( 1 && 2 && 3 );
  
@@ -65,12 +67,8 @@ console.log (personalMovieDB);
 //     for (let j = i; j <= 60; j++ ){
 //         let d = 60-j;    
 //         console.log('You need passport and wait for the rest ' + d + ' years!');        
-//     }}
-    
+//     }}    
 // }
-
-
-
 // for (let i=5; i<11; i++) {
 // console.log(i);
 // }
@@ -82,3 +80,60 @@ console.log (personalMovieDB);
 //     break;}
 // }
 // При помощи цикла for выведите чётные числа от 2 до 10 включительно
+// Место для первой задачи
+// function sayHello(name) {
+//     name ='Привет, ' + name;
+// return console.log(name);
+// }
+// sayHello('Вова');
+// // Место для второй задачи
+
+// function returnNeighboringNumbers(number) {
+// let arr  = [];
+// arr[0]= number - 1;
+// arr[1]= number;
+// arr[2]= number + 1;
+// return console.log(arr);  
+// }
+// returnNeighboringNumbers(45);
+
+// // Место для третьей задачи
+// function getMathResult() {
+
+// }
+// function sayHello(name) {
+//     return `Привет, ${name}!`;
+// }
+
+// sayHello('Alex');
+
+// function returnNeighboringNumbers(num) {
+//     return [num - 1, num, num + 1];
+// }
+
+// returnNeighboringNumbers(5);
+
+// function getMathResult(num, times) {
+//     if (typeof(times) !== 'number' || times <= 0) {
+//         return num;
+//     }
+
+//     let str = '';
+
+//     for (let i = 1; i <= times; i++) {
+//         if (i === times) {
+//             str += `${num * i}`;
+//             // Тут без черточек в конце
+//         } else {
+//             str += `${num * i}---`;
+//             // Это тоже самое, что и
+//             // str = str + num * i + "---"
+//         }
+// //     }
+
+//     return str;
+// }
+
+// getMathResult(10, 5);
+// let strong = "Get the parameter";
+// console.log (strong.slice(3));
