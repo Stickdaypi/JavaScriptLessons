@@ -17,9 +17,9 @@
 //     const result = [];
 
 
-// for (let i = 0; arr.length > result.length; i++ ) {
+for (let i = 0; arr.length > result.length; i++ ) {
   
-//     result.push(arr[i]);
+    result.push(arr[i]);
 // }
 // Измените данный массив так, чтобы все числа были увеличены в 2 раза, а если попадается строка строка - то к ней было добавлено " - done".
 // Для определения типа данных используйте typeof();
